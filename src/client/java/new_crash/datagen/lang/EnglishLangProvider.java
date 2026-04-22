@@ -1,4 +1,4 @@
-package new_crash.datagen.providers;
+package new_crash.datagen.lang;
 
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricLanguageProvider;
@@ -6,10 +6,10 @@ import net.minecraft.core.HolderLookup;
 
 import java.util.concurrent.CompletableFuture;
 
-public class ModGermanLangProvider extends FabricLanguageProvider {
-    public static final String LANGUAGE_CODE = "de_de";
+public class EnglishLangProvider extends FabricLanguageProvider {
+    public static final String LANGUAGE_CODE = "en_us";
 
-    public ModGermanLangProvider(FabricDataOutput dataOutput, CompletableFuture<HolderLookup.Provider> registryLookup) {
+    public EnglishLangProvider(FabricDataOutput dataOutput, CompletableFuture<HolderLookup.Provider> registryLookup) {
         super(dataOutput, LANGUAGE_CODE, registryLookup);
     }
 

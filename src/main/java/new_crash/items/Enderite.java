@@ -1,14 +1,13 @@
 package new_crash.items;
 
 import new_crash.MinecraftBaseMod;
-import new_crash.NewCrash;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.resources.Identifier;
 import net.minecraft.resources.ResourceKey;
 import net.minecraft.world.item.Item;
 
 
-public class Enderite extends ModItems {
+public class Enderite extends Items {
         public static final String NAME_ID = "Enderite";
         public static final String ENGLISH_NAME = "Enderite";
         public static final String GERMAN_NAME = "Enderite";

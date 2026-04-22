@@ -2,15 +2,12 @@ package new_crash;
 
 
 
-import com.mojang.brigadier.arguments.IntegerArgumentType;
 //import new_crash.commands.AbilityPointsCommands;
 //import minecraft_base_mod.items.ModItems;
 import net.fabricmc.api.ModInitializer;
 import net.fabricmc.fabric.api.command.v2.CommandRegistrationCallback;
-import net.fabricmc.fabric.api.event.player.PlayerBlockBreakEvents;
-import net.minecraft.commands.Commands;
-import net.minecraft.commands.arguments.EntityArgument;
-import new_crash.items.ModItems;
+        import net.minecraft.commands.Commands;
+        import new_crash.items.Items;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -32,7 +29,7 @@ public class MinecraftBaseMod implements ModInitializer {
 
 
 
-        ModItems.initialize();
+        Items.initialize();
 
 
 
