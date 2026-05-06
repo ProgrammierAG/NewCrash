@@ -2,7 +2,7 @@ package new_crash.datagen;
 
 
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricTagProvider;
-import new_crash.items.Enderite;
+import new_crash.item.Enderite;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.world.item.Items;

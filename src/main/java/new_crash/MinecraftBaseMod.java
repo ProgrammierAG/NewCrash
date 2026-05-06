@@ -7,7 +7,7 @@ package new_crash;
 import net.fabricmc.api.ModInitializer;
 import net.fabricmc.fabric.api.command.v2.CommandRegistrationCallback;
         import net.minecraft.commands.Commands;
-        import new_crash.items.Items;
+        import new_crash.item.Items;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
