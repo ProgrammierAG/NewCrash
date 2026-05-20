@@ -17,6 +17,7 @@ public class ModelProvider extends FabricModelProvider {
     @Override
     public void generateItemModels(ItemModelGenerators itemModelGenerator) {
         itemModelGenerator.generateFlatItem(Items.ENDERITE, ModelTemplates.FLAT_ITEM);
+        itemModelGenerator.generateFlatItem(Items.ENDERITE_CHESTPLATE, ModelTemplates.FLAT_ITEM);
     }
 
 

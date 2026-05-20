@@ -11,6 +11,7 @@ import java.util.function.Supplier;
     public class Items {
 
         public static final Enderite ENDERITE = register(Enderite::new, Enderite.ITEM_KEY);
+         public static final EnderiteChestplate ENDERITE_CHESTPLATE = register(EnderiteChestplate::new, EnderiteChestplate.ITEM_KEY);
 
 
 
