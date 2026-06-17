@@ -5,7 +5,6 @@ import net.fabricmc.api.ClientModInitializer;
 import net.fabricmc.fabric.api.client.event.lifecycle.v1.ClientTickEvents;
 import net.fabricmc.fabric.api.client.keybinding.v1.KeyBindingHelper;
 import net.minecraft.client.KeyMapping;
-import net.minecraft.network.chat.Component;
 import net.minecraft.resources.Identifier;
 import org.lwjgl.glfw.GLFW;
 
@@ -14,7 +13,7 @@ public class MinecraftBaseModClient implements ClientModInitializer {
     public void onInitializeClient() {
 
         KeyMapping.Category CATEGORY = new KeyMapping.Category(
-                Identifier.fromNamespaceAndPath(MinecraftBaseMod.MOD_ID, "custom_category")
+                Identifier.fromNamespaceAndPath(NewCrash.MOD_ID, "custom_category")
         );
 
         KeyMapping sendToChatKey = KeyBindingHelper.registerKeyBinding(

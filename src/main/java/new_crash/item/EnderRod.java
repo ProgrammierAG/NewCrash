@@ -1,6 +1,6 @@
 package new_crash.item;
 
-import new_crash.MinecraftBaseMod;
+import new_crash.NewCrash;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.ChatFormatting;
 import net.minecraft.core.Registry;
@@ -29,14 +29,14 @@ public class EnderRod extends Item {
     public static final String ENGLISH_NAME = "Ender Rod";
     public static final String GERMAN_NAME = "End-Stab";
 
-    public static final ResourceKey<Item> ITEM_KEY = ResourceKey.create(Registries.ITEM, Identifier.fromNamespaceAndPath(MinecraftBaseMod.MOD_ID, NAME_ID));
+    public static final ResourceKey<Item> ITEM_KEY = ResourceKey.create(Registries.ITEM, Identifier.fromNamespaceAndPath(NewCrash.MOD_ID, NAME_ID));
 
     public static final String TOOL_TIP_TRANSLATION_KEY = "item." + ITEM_KEY.identifier() + ".tool_tip";
     public static final String TOOL_TIP = "x: %s | y:%s | z:%s";
 
     public static final DataComponentType<Vec3> POSITION_COMPONENT = Registry.register(
             BuiltInRegistries.DATA_COMPONENT_TYPE,
-            Identifier.fromNamespaceAndPath(MinecraftBaseMod.MOD_ID, "position"),
+            Identifier.fromNamespaceAndPath(NewCrash.MOD_ID, "position"),
             DataComponentType.<Vec3>builder().persistent(Vec3.CODEC).build()
     );
 

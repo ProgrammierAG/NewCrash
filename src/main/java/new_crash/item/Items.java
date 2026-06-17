@@ -11,7 +11,13 @@ import java.util.function.Supplier;
     public class Items {
 
         public static final Enderite ENDERITE = register(Enderite::new, Enderite.ITEM_KEY);
-         public static final EnderiteChestplate ENDERITE_CHESTPLATE = register(EnderiteChestplate::new, EnderiteChestplate.ITEM_KEY);
+        public static final EnderiteChestplate ENDERITE_CHESTPLATE = register(EnderiteChestplate::new, EnderiteChestplate.ITEM_KEY);
+        public static final EnderiteBoots ENDERITE_BOOTS = register(EnderiteBoots::new, EnderiteBoots.ITEM_KEY);
+        public static final EnderiteHelmet ENDERITE_HELMET = register(EnderiteHelmet::new, EnderiteHelmet.ITEM_KEY);
+        public static final EnderiteLeggings ENDERITE_LEGGINGS = register(EnderiteLeggings::new, EnderiteLeggings.ITEM_KEY);
+        public static final EnderRod ENDER_ROD = register(EnderRod::new, EnderRod.ITEM_KEY);
+//        public static final EnderiteChestplate ENDERITE_CHESTPLATE = register(EnderiteChestplate::new, EnderiteChestplate.ITEM_KEY);
+//        public static final EnderiteChestplate ENDERITE_CHESTPLATE = register(EnderiteChestplate::new, EnderiteChestplate.ITEM_KEY);
 
 
 
