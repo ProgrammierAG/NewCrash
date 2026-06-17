@@ -22,9 +22,6 @@ import net.minecraft.world.item.equipment.ArmorType;
 
 import java.util.function.Consumer;
 
-public class EnderiteChestplate extends Item {
-    public EnderiteChestplate(Properties properties) {
-        super(properties);
 
 
         public class EnderiteChestplate extends Item {
@@ -63,10 +60,8 @@ public class EnderiteChestplate extends Item {
                 );
             }
 
-            @Override
+
             public ResourceKey<Item> getItemKey() {
                 return ITEM_KEY;
             }
         }
-    }
-}

@@ -20,8 +20,8 @@ import java.util.Map;
 
 public class Enderite extends Item {
         public static final String NAME_ID = "Enderite";
-        public static final String ENGLISH_NAME = "Enderite";
-        public static final String GERMAN_NAME = "Enderite";
+        public static final String ENGLISH_NAME = "Enderite Ingot";
+        public static final String GERMAN_NAME = "Enderite Barren";
 
     public static final ResourceKey<Item> ITEM_KEY = ResourceKey.create(Registries.ITEM, Identifier.fromNamespaceAndPath(MinecraftBaseMod.MOD_ID, NAME_ID));
 
