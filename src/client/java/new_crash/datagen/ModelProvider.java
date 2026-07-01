@@ -18,6 +18,9 @@ public class ModelProvider extends FabricModelProvider {
     public void generateItemModels(ItemModelGenerators itemModelGenerator) {
         itemModelGenerator.generateFlatItem(Items.ENDERITE, ModelTemplates.FLAT_ITEM);
         itemModelGenerator.generateFlatItem(Items.ENDERITE_CHESTPLATE, ModelTemplates.FLAT_ITEM);
+        itemModelGenerator.generateFlatItem(Items.ENDERITE_BOOTS, ModelTemplates.FLAT_ITEM);
+        itemModelGenerator.generateFlatItem(Items.ENDERITE_LEGGINGS, ModelTemplates.FLAT_ITEM);
+        itemModelGenerator.generateFlatItem(Items.ENDERITE_HELMET, ModelTemplates.FLAT_ITEM);
     }
 
 
